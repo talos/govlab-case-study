@@ -1,13 +1,17 @@
-.ann-annotatable {
+.ann-annotatable:hover {
   border: solid red 1px;
 }
 
-.ann-annotatable .ann-comments {
+.ann-annotatable .ann-comment-list {
   display: none;
 }
 
-.ann-annotatable .ann-comments .ann-comment-input {
+.ann-annotatable .ann-comment-list .ann-comment-input {
 }
 
-.ann-annotatable .ann-comments .ann-comment {
+.ann-annotatable .ann-comment-list .ann-comment-input textarea:before {
+  text: "Enter your comment:";
+}
+
+.ann-annotatable .ann-comment-list .ann-comment {
 }
