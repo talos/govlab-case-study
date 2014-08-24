@@ -1,0 +1,13 @@
+.ann-annotatable {
+  border: solid red 1px;
+}
+
+.ann-annotatable .ann-comments {
+  display: none;
+}
+
+.ann-annotatable .ann-comments .ann-comment-input {
+}
+
+.ann-annotatable .ann-comments .ann-comment {
+}
