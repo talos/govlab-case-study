@@ -36,7 +36,7 @@ comments becomes visible.
 You can follow the above instructions with a file on your local HDD (yes, it
 works even without a local server) or you can [check it out on GH][]:
 
-  [check it out on GH]: http://blog.johnkrauss.com/govlab-case-study/The New York City Council - File %23_ Int 0173-2014.html
+  [check it out on GH]: http://blog.johnkrauss.com/govlab-case-study/The%20New%20York%20City%20Council%20-%20File%20%23_%20Int%200173-2014.html
 
 ### TODO
 
