@@ -3,8 +3,7 @@
 ;(function () {
   "use strict";
   var rootDb = new Firebase('https://annotator.firebaseio.com/').child(
-      encodeURIComponent(
-          window.location.href.replace('.', '').replace('#', '')));
+      encodeURIComponent(window.location.href.replace(/[.:#]/g, '')));
   var annotatables = [];
   var annotatableClasses = 'div, p, img';
 
