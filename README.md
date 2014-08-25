@@ -8,7 +8,7 @@ At the top of the page you want to have live annotations, add the following
 CSS link:
 
 ```
-<link href="annotator.css" rel="stylesheet" type="text/css">
+<link href="http://blog.johnkrauss.com/govlab-case-study/annotator.css" rel="stylesheet" type="text/css">
 ```
 
 At the bottom of the page you want to use annotations on, add the following
@@ -16,7 +16,7 @@ At the bottom of the page you want to use annotations on, add the following
 
 ```
 <script src="https://cdn.firebase.com/js/client/1.0.21/firebase.js"></script>
-<script src="annotator.js"></script>
+<script src="http://blog.johnkrauss.com/govlab-case-study/annotator.js"></script>
 ```
 
 ### What does it do?
@@ -29,6 +29,14 @@ see the comment appear.
 
 As comments are entered, a little notification above any paragraph with
 comments becomes visible.
+
+
+### Take it for a spin
+
+You can follow the above instructions with a file on your local HDD (yes, it
+works even without a local server) or you can [check it out on GH][]:
+
+  [check it out on GH]: http://blog.johnkrauss.com/govlab-case-study/The New York City Council - File %23_ Int 0173-2014.html
 
 ### TODO
 
