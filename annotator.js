@@ -68,9 +68,6 @@
     var $input = this.$input = $('<textarea />')
       .attr('placeholder', 'Enter your comment, tab or click out to submit...');
     this.$el = $('<div />').addClass('ann-comment-input').append($input);
-
-    // Prevent annotatable from closing
-    $input.on('click', function () { return false; });
     $input.on('blur', function () { self.submit(); });
   }
 
