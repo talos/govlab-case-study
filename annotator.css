@@ -1,17 +1,36 @@
-.ann-annotatable:hover {
-  border: solid red 1px;
+.ann-annotatable.ann-has-comments>.ann-comment-count {
+  border: solid blue;
+  border-width: 1px 0px 0px 0px;
+  display: block !important;
+}
+
+.ann-annotatable:hover>.ann-comment-count {
+  border: solid blue;
+  border-width: 1px 0px 0px 0px;
+  display: block !important;
+}
+
+.ann-annotatable .ann-comment-count {
+  cursor: pointer;
+  font-style: italic;
+  font-weight: bold;
+  color: blue;
+  display: none;
 }
 
 .ann-annotatable .ann-comment-list {
   display: none;
+  width: 100%;
 }
 
 .ann-annotatable .ann-comment-list .ann-comment-input {
 }
 
-.ann-annotatable .ann-comment-list .ann-comment-input textarea:before {
-  text: "Enter your comment:";
+.ann-annotatable .ann-comment-list .ann-comment-input textarea {
+  width: 90%;
 }
 
 .ann-annotatable .ann-comment-list .ann-comment {
+  background: rgba(128, 128, 128, 0.1);
+  margin: 2px;
 }
